@@ -1,0 +1,129 @@
+
+.jumbotron{
+	padding-top: 55px;
+	padding-bottom: 0px;
+}
+#footer{
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+/*选项卡1*/
+#lib_Tab1_sx{
+	width:1000px;
+	margin:0px;
+	padding:0px;
+	margin-bottom:15px; 
+	overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+/*菜单class*/
+.lib_tabborder_sx{
+	border:1px solid #6d4545;
+}
+.lib_Menubox_sx {
+	line-height:28px;
+	position:relative; 
+	float:left; 
+	width:230px; 
+	height:740px;
+	border-right:1px solid #6d4545;
+}
+
+.lib_Menubox_sx ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	position:absolute;
+	top:15px;
+	left:5px; 
+	margin-left:10px; 
+	height:25px;
+	text-align:center;
+}
+.lib_Menubox_sx li{
+	display:block;
+	cursor:pointer;
+	width:200px;
+	color:#949694;
+	font-weight:bold; 
+	margin-bottom:5px;
+	height:40px;
+	line-height:40px; 
+	background-color:#E4F2FD;
+}
+.lib_Menubox_sx li.hover{
+	padding:0px;
+	background:#fff;
+	width:200px;
+	border:1px solid #999999; 
+	border-right:1;
+	color:#739242;
+	height:40px;
+	line-height:40px;
+}
+.lib_Contentbox_sx{
+	margin-top:20px; 
+
+}
+/*right*/
+#shiyong_right{
+	width: 600px;
+	height: 700px;
+	margin-left: 300px;
+}
+#one1_word{
+	width: 100%;
+}
+.shiyong_check{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	width: 45%;
+	height: 80px;
+}
+.shiyong_box1{
+	width: 200px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+/**/
+.one1_img{
+	width: 150px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.one1_img_up{
+	width: 150px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#shiyong_others{
+	width: 550px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.shiyong_others1{
+	width: 200px;
+}
+.shiyong_others2{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/**/
+#shiyong_sub{
+	width: 70px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}

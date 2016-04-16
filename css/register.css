@@ -1,0 +1,39 @@
+p{
+	color: #6d4545;
+}
+a:visited { text-decoration: none;color: #777777;}
+a:hover{text-decoration: none;color: #333333;}
+span{color: #6d4545;}
+
+fieldset{width:520px; margin: 0 auto;}
+legend{ font-size:14px;}
+label{float:left; width:100px; margin-left:10px;}
+.left{margin-left:50px;margin-top: 30px;}
+.input{width:180px;border:1px solid #6d4545;border-radius: 5px;height: 25px;}
+span{color: #6d4545;}
+/**/
+#user{
+	width: 600px;
+	height: 350px;
+	border: 1px solid #6d4545;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 130px;
+	border-radius: 15px;
+}
+#usern{
+	margin-top: 20px;
+	width: 500px;
+}
+
+#footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 50px;
+}
+.footer-1{
+	width: 300px;
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}

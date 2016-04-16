@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一个为用户提供专业、免费平面设计的网站，致力于为用户提供一个免费、快速、专业的平面设计。
+    同时，Psi浦斯设计为了更好的为用户服务，网站也推出专业版，满足用户更多需求。">
+    <meta name="keywords" content="设计、平面设计、免费、免费设计、武汉设计、设计公司、浦斯设计、Psi设计、武汉浦斯设计">
+    <meta name="author" content="Psi浦斯设计">
+   
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.jslides.css" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jslides.js"></script>
+
+    <title>浦斯设计</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+<script language=JavaScript>
+function InputCheck(RegForm)
+{
+  if (RegForm.username.value == "")
+  {
+    alert("用户名不可为空!");
+    RegForm.username.focus();
+    return (false);
+  }
+  if (RegForm.password.value == "")
+  {
+    alert("必须设定登录密码!");
+    RegForm.password.focus();
+    return (false);
+  }
+  if (RegForm.repass.value != RegForm.password.value)
+  {
+    alert("两次密码不一致!");
+    RegForm.repass.focus();
+    return (false);
+  }
+  if (RegForm.email.value == "")
+  {
+    alert("电子邮箱不可为空!");
+    RegForm.email.focus();
+    return (false);
+  }
+}
+</script>
+</head>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Psi 浦斯设计</a>
+        </div>
+
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">业务介绍</a></li>
+            <li><a href="contact.html">关于我们</a></li>
+            <li><a href="http://tieba.baidu.com/f?kw=%E6%B5%A6%E6%96%AF%E8%AE%BE%E8%AE%A1&ie=utf-8&ie=utf-8&fr=wwwt" target="_blank">
+              官方贴吧
+            </a></li>
+          </ul>
+
+       <ul class="nav navbar-nav navbar-right">
+            <li><a href="register.html">注册</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="login.html">登录</a></li>
+          </ul>
+      </div>
+      </div>
+
+<div id="user">
+<fieldset>
+<legend>用户注册</legend>
+<form name="RegForm" method="post" action="reg.php" onSubmit="return InputCheck(this)">
+
+<div id="usern">
+<label for="username" class="label"><p>用户名:</p></label></div>
+<input id="username" name="username" type="text" class="input" />
+<span>(必填，3-10字符长度)</span>
+
+<div id="usern">
+<label for="password" class="label"><p>密 码:</p></label>
+<input id="password" name="password" type="password" class="input" />
+<span>(必填，不得少于6位)</span>
+</div>
+<div id="usern">
+<label for="repass" class="label"><p>重复密码:</p></label></div>
+<input id="repass" name="repass" type="password" class="input" />
+
+<div id="usern">
+<label for="email" class="label"><p>电子邮箱:</p></label>
+<input id="email" name="email" type="text" class="input" />
+<span>(必填)</span>
+</div>
+<p>
+<input  type="submit" name="submit" value="  提交注册  " class="left" />
+</p>
+</form>
+</fieldset>
+
+</div>
+<div id="footer">
+  <div class="footer-1"><p>Copyright&copy; 2014 <a href="index.html">Psi</a> All Rights Reserved</p></div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
